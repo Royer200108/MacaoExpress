@@ -52,8 +52,21 @@
 	font-size: 1.6rem;
 }
 
-
-
+.Lista-Opciones-Show{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	background-color: #415927;
+	padding: 5px;
+	box-shadow: 0px 2px 8px #999;
+	visibility: visible;
+	opacity: 1;
+	flex-grow: 1;
+}
 /*Estilos globales*/
 body{
 	background-color: #ecb100 !important;
@@ -120,4 +133,224 @@ header div a{
 	font-weight: bolder;
 	margin: 0;
 	color: white;
+}
+
+.Menu-Hamburguesa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Btn-Save{
+	border: none;
+	padding: 5px;
+	margin: auto;
+}
+
+.Contenedor-Btn-Trash{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+}
+
+.Contenedor-Detalles-Orden-Btn{
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+}
+
+/* --------------------------- Estilos Barra lateral --------------------------- */
+.Lista-Opciones{
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.Lista-Opciones__Items{
+	font-family: 'Poppins';
+	list-style: none;
+	padding: 10px;
+	font-size: 1rem;
+	font-weight: bold;
+	/*border-left: black solid medium;*/
+}
+
+.Lista-Opciones ul li a{
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.Lista-Opciones ul li a:hover{
+	background-color: #415927;
+}
+
+.Lista-Opciones__Lista-Items{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.Lista-Opciones__Lista-SubItems{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.Lista-Opciones__Items-Principal{
+	padding: 5px;
+	margin-bottom: 0;
+}
+
+.Lista-Opciones__SubItems{
+	display: none;
+}
+
+.Lista-Opciones ul li:hover > ul li{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-left: 10px;
+	font-family: 'Poppins';
+	list-style: none;
+	padding: 10px;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.Lista-Opciones-Show{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	background-color: #415927;
+	padding: 5px;
+	box-shadow: 0px 2px 8px #999;
+	visibility: visible;
+	opacity: 1;
+	flex-grow: 1;
+}
+
+@media (max-width: 1000px){
+	.main{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.Lista-Opciones{
+		height: 0;
+	}
+
+	.Lista-Opciones-Show{
+		width: 100vw;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		background-color: #415927;
+		padding: 10px;
+		box-shadow: 0px 0px 8px #999;
+	}
+
+	.Lista-Opciones__Lista-Items{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.Lista-Opciones__Items:hover{
+		transition: all 1s ease;
+	}
+
+	.Lista-Opciones__Items a:hover{
+		background-color: #f4f6f6;
+	}
+
+	.Lista-Opciones ul li:hover > ul{
+		transition: all 1s ease;
+		display: flex;
+		margin-top: 10px;
+		list-style: none;
+	}
+
+	.Contenedor-Formulario{
+		height: 0;
+	}
+
+	.Contenedor-Formulario-Show{
+		margin-top: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		padding-top: 10px;
+		background-color: white;
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+		box-shadow: 0px 2px 8px #999;
+	}
+
+	input{
+		border: none;
+		outline: none;
+		line-height: 30px;
+		height: 30px;
+		width: 80%;
+		border-bottom: 1px solid gray;
+	}	
+
+	.Contenido-Principal{
+		align-content: flex-start;
+		margin: auto;
+		width: 95%;
+	}
+
+	.Contenedor-Empresas{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: center;
+		width: 90%;
+	}
+
+	.Contenedor-Formulario-Editar-Agregar{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;    
+		height: 80%;
+		background-color: white;
+		margin-top: 10px;
+	}
+}
+
+
+@media (max-width: 750px){
+	.Contenedor-Detalles-Orden{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		flex-basis: 90%;
+		padding: 5px;
+		background-color: white;
+		box-shadow: 0px 0px 10px #ccc;
+	}
 }

@@ -11,91 +11,57 @@
     <script src="https://kit.fontawesome.com/5d90cce487.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="nav navbar navbar-expand-lg navbar-light">
-        <div class="Logo">
-			<a href=""><img src="img/BotonDeInicio.png" alt="Logo de MacaoExpress" id="boton-logo"></a>
-		</div>
-		<div class="Contenedor-Botones-Header">
-			<!-- boton del Login usando Modal -->
-			<button class="Botones-Header Btn-Login" data-bs-toggle="modal" data-bs-target="#modal-login">
-				<h2 class="Texto-Header" onclick="formularioIniciaSesion()">Login <i class="fa-solid fa-user"></i></h2>
-			</button>
-			<!--Modal-->
-			<div class="modal fade" id="modal-login">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-                            <div class="Logo">
-                                <a href=""><img src="img/BotonDeInicio.png" alt="Logo de MacaoExpress" id="boton-logo"></a>
-                            </div>
-							<h5 class="modal-title" id="modal-loginLabel">
-                                Iniciar Seccion
-                            </h5>
-							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-						</div>
-						<div class="modal-body">
-							<div class="container-fluid">
-									<div id="inputs" class="col-9 into-session">
-										<input id="email" type="text" class="form-control input family-font" placeholder="Ingresa tu email.">
-									</div>
-									<div id="inputs" class="col-9 into-session">
-										<input id="pass" type="password" class="form-control input family-font" placeholder="Ingresa tu contraseña">
-									</div>
-                                    <div class="anchor"> 
-                                        <a href="" >¿Olvisdaste tu contraseña?</a>
-                                    </div>
-							</div>
-						</div>
-						<div id="" class="modal-footer into-session">
-							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-							<button id="btn-access" type="button" class="btn btn-success" >Iniciar Sesión</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    </header>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-titl"><i class="fa-solid fa-user-clock" id="icono-usuario"></i></h5>
-                        <p class="card-text">
-                            <i class="fa-solid fa-circle boton-amarillo"></i>
-                        </p>
-                    </div>
-                </div>
+        <header class="nav navbar">
+            <div class="Logo">
+                <a href="" onclick="activarMenu()">
+                    <img src="img/BotonDeInicio.png" alt="Logo de MacaoExpress" id="boton-logo">
+                </a>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="fa-solid fa-circle-user" id="icono-usuario"></i></h5>
-                        <p class="card-text">
-                            <i class="fa-solid fa-circle boton-rojo"></i>
-                        </p>
-                    </div>
-                </div>
+            <div class="Contenedor-Botones-Header">
+                <!-- boton del Login usando Modal -->
+                <a href="" class="Botones-Header Btn-Login" onclick="generarPerfil()">
+                    <h2 class="Texto-Header">Login<i class="fa-solid fa-user"></i></h2>
+                </a>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="fa-solid fa-circle-user" id="icono-usuario"></i></h5>
-                        <p class="card-text">
-                            <i class="fa-solid fa-circle boton-verde"></i>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </header>
     
     <main>
-        <div class="Contenid-Principal" id="Contenido-Principal-Cards">
-            <nav>
-            </nav>
-        </div>
+        <div class="main">
+			<nav class="Lista-Opciones" id="Menu-Opciones-Principal">
+				<ul class="Lista-Opciones__Lista-Items m-0">
+					<li class="Lista-Opciones__Items"> <a href="#" class="Lista-Opciones__Link" onclick="mostrarRepartidores()"> Repartidores </a> </li>
+					<li class="Lista-Opciones__Items"> <a href="#" class="Lista-Opciones__Link" onclick="mostrarOrdenes()">Ordenes </a> </li>
+					<li class="Lista-Opciones__Items"> 
+						<a href="#" class="Lista-Opciones__Link"> Empresas </a> 
+						<ul class="Lista-Opciones__Lista-SubItems">
+							<li class="Lista-Opciones__SubItems"> 
+								<a href="#" class="Lista-Opciones__Link" onclick="mostrarEmpresas()"> Ver Empresas </a> 
+							</li>
+							<li class="Lista-Opciones__SubItems"> 
+								<a href="#" class="Lista-Opciones__Link" onclick="formularioAgregarEmpresa()"> Agregar Empresa </a> 
+							</li>
+							<li class="Lista-Opciones__SubItems"> 
+								<a href="#" class="Lista-Opciones__Link" onclick="editarEmpresa()"> Editar Empresa </a> 
+							</li>
+						</ul>	
+					</li>
+					<li class="Lista-Opciones__Items"> 
+						<a href="#" class="Lista-Opciones__Link"> Productos </a>
+
+						<ul class="Lista-Opciones__Lista-SubItems">
+							<li class="Lista-Opciones__SubItems"> 
+								<a href="#" class="Lista-Opciones__Link" onclick="mostrarProductos()"> Ver Productos </a> 
+							</li>
+							<li class="Lista-Opciones__SubItems"> 
+								<a href="#" class="Lista-Opciones__Link" onclick="formularioAgregarProducto()"> Agregar Producto </a> 
+							</li>
+							<li class="Lista-Opciones__SubItems"> 
+								<a href="#" class="Lista-Opciones__Link" onclick="editarProductos()"> Editar Producto </a> 
+							</li>
+						</ul>	
+					</li>
+				</ul>
+			</nav>
     </main>
 
     <script src="js/controlador.js"></script>
