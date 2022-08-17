@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrativo</title>
+    <link rel="stylesheet" href="css/administrativoEstilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/5d90cce487.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="nav navbar navbar-expand-lg navbar-light">
+        <div class="Logo">
+			<a href=""><img src="img/BotonDeInicio.png" alt="Logo de MacaoExpress" id="boton-logo"></a>
+		</div>
+		<div class="Contenedor-Botones-Header">
+			<!-- boton del Login usando Modal -->
+			<button class="Botones-Header Btn-Login" data-bs-toggle="modal" data-bs-target="#modal-login">
+				<h2 class="Texto-Header" onclick="formularioIniciaSesion()">Login <i class="fa-solid fa-user"></i></h2>
+			</button>
+			<!--Modal-->
+			<div class="modal fade" id="modal-login">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+                            <div class="Logo">
+                                <a href=""><img src="img/BotonDeInicio.png" alt="Logo de MacaoExpress" id="boton-logo"></a>
+                            </div>
+							<h5 class="modal-title" id="modal-loginLabel">
+                                Iniciar Seccion
+                            </h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<div class="container-fluid">
+									<div id="inputs" class="col-9 into-session">
+										<input id="email" type="text" class="form-control input family-font" placeholder="Ingresa tu email.">
+									</div>
+									<div id="inputs" class="col-9 into-session">
+										<input id="pass" type="password" class="form-control input family-font" placeholder="Ingresa tu contraseña">
+									</div>
+                                    <div class="anchor"> 
+                                        <a href="" >¿Olvisdaste tu contraseña?</a>
+                                    </div>
+							</div>
+						</div>
+						<div id="" class="modal-footer into-session">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button id="btn-access" type="button" class="btn btn-success" >Iniciar Sesión</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-titl"><i class="fa-solid fa-user-clock" id="icono-usuario"></i></h5>
+                        <p class="card-text">
+                            <i class="fa-solid fa-circle boton-amarillo"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-user" id="icono-usuario"></i></h5>
+                        <p class="card-text">
+                            <i class="fa-solid fa-circle boton-rojo"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-user" id="icono-usuario"></i></h5>
+                        <p class="card-text">
+                            <i class="fa-solid fa-circle boton-verde"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        <div class="Contenid-Principal" id="Contenido-Principal-Cards">
+            <nav>
+            </nav>
+        </div>
+    </main>
+
+    <script src="js/controlador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
