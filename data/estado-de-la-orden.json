@@ -1,0 +1,18 @@
+[
+	{
+		"estado": "Entregada",
+		"estadoColor": "#35CF00"
+	},
+	{
+		"estado": "No entregada",
+		"estadoColor": "red" 
+	},
+	{
+		"estado": "En el origen",
+		"estadoColor": "skyblue"
+	},
+	{
+		"estado": "En camino",
+		"estadoColor": "orange"
+	}
+]	

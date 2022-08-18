@@ -1,0 +1,42 @@
+[
+	{
+		"estado": "Aceptado",
+		"estadoColor": "#35CF00"
+	},
+	{
+		"estado": "Rechazado",
+		"estadoColor": "red"
+	},
+	{
+		"estado": "Pendiente",
+		"estadoColor": "orange"
+	},
+	{
+		"estado": "Disponible",
+		"estadoColor": "#35CF00"
+	},
+	{
+		"estado": "No disponible",
+		"estadoColor": "red"
+	},
+	{
+		"estado": "En proceso",
+		"estadoColor": "orange"
+	},
+	{
+		"estado": "Asignada",
+		"estadoColor": "#35CF00" 
+	}, 
+	{
+		"estado": "No asignada",
+		"estadoColor": "red"
+	},
+	{
+		"estado": "Tomada",
+		"estadoColor": "#35CF00" 
+	},
+	{
+		"estado": "No tomada",
+		"estadoColor": "red" 
+	}
+]

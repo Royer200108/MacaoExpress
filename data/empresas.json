@@ -1,0 +1,21 @@
+[{
+    "nombre" : "PolloChiquen",
+    "telefono" : "123456789",
+    "web": "www.pollochiquen.com",
+    "logo": "img/pollochiquen.png",
+    "descripcion": "Los pollos mas ricos de toda la ciudad"
+},
+{
+    "nombe" : "Wendy",
+    "telefono" : "1239283904",
+    "web": "www.wendy.com",
+    "logo": "img/wendy.png",
+    "descripcion": "Las mejores hamburguesas de la ciudad"
+},
+{
+    "nombre" : "Pizza Hut",
+    "telefono" : "1234823457974",
+    "web": "www.pizzahut.com",
+    "logo": "img/pizzahut.png",
+    "descripcion": "Las mejores pizzas de la ciudad"
+}]

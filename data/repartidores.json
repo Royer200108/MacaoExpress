@@ -1,0 +1,37 @@
+[{
+    "usuario" : "Luis Miguel",
+    "nombre" : "Luis",
+    "apellido" : "Miguel",
+    "email" : "luismigue123@gmail.com",
+    "password" : "123456",
+    "telefono" : "123456789",
+    "valoracion" : 3,
+    "estado" : "Rechazado",
+    "disponibilidad" : "Disponible",
+    "ordenesEntregadas" : []
+},
+{
+    "usuario" : "Brayron Martinez",
+    "nombre" : "Brayron",
+    "apellido" : "Martinez",
+    "email" : "bayronmartinex@gmail.com",
+    "password" : "123456",
+    "telefono" : "123456789",
+    "valoracion" : 5,
+    "estado" : "Aceptado",
+    "disponibilidad" : "No disponible",
+    "ordenesEntregadas" : []
+},
+{
+    "usuario" : "Juan Pablo",
+    "nombre" : "Juan",
+    "apellido" : "Pablo",
+    "email" : "juanpablo@yahoo.con",
+    "password" : "12345693",
+    "telefono" : "123456789",
+    "valoracion" : 4,
+    "estado" : "Pendiente",
+    "disponibilidad" : "Disponible",
+    "ordenesEntregadas" : []
+}
+]
