@@ -1,0 +1,30 @@
+[{
+    "usuario":"Erick Vladimir",
+    "nombre":"Erick",
+    "apellido":"Vladimir",
+    "email":"erickvladimir@gmail.com",
+    "password":"123456",
+    "telefono":"58-34-21-12",
+    "direccion":"Calle falsa 123",
+    "fechaNacimiento":"12/12/12"
+},
+{
+    "usuario":"Juan Carlos",
+    "nombre":"Juan",
+    "apellido":"Carlos",
+    "email":"juancarlos@gmail.com",
+    "password":"123456",
+    "telefono":"22-34-21-12",
+    "direccion":"Calle las rosas de pino",
+    "fechaNacimiento":"14/12/12"
+},
+{
+    "usuario":"Mery Anariba",
+    "nombre":"Mery",
+    "apellido":"Anariba",
+    "email":"meryanariba@yahoo.es",
+    "password":"123456",
+    "telefono":"58-34-21-12",
+    "direccion":"La cannada bloque bh",
+    "fechaNacimiento":"12/12/12"
+}]
