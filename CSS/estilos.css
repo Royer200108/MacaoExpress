@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+#Inicio-sesion{
+    width: 414px;
+    background-color: #3F7F00;
+}
+
+.family-font{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background: #F2B705;
+    font-family: 'Roboto', sans-serif;
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#logo{
+    width: 394px;
+    height: 347px;
+    /* left: 10px;
+    top: 39px; */
+}
+
+#session{
+    position: absolute;
+    /* width: 414px; */
+    height: 500px;
+    left: 0px;
+    top: 396px;
+
+    background: #FFFFFF;
+    border-radius: 60px 60px 0px 0px;
+}
+.into-session{
+    padding: 0 2.375rem 0 2.375rem  ;
+}
+#welcome{
+    margin-top: 55px;
+
+    height: 38px;
+    top: 55px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+#description{
+    margin-top: 7px;
+    height: 31px;
+    top: 93px;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    color: #720201;
+}
+#inputs{
+    margin-top: 1rem;
+}
+.input{
+    width: 338px;
+    height: 60px;
+    background: #EAEAEA;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 1.5rem 0 1.5rem;
+}
+input:focus-visible{
+    outline: none !important;
+}
+#email{
+    top: 142px;
+    margin-bottom: 30px;
+}
+#pass{
+    top: 230px;
+}
+
+.anchor{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #244BC0;
+    margin-top: 7px;
+}
+.anchor:hover{
+    color: #0a2679;
+}
+
+#btn-access, #btn-finalizar, #btn-cancelar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 60px;
+    background: #3F7F00;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.barra-contenedora{
+    height: 174px;
+    background: #C22727;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.titulos{
+    text-align: left;
+    font-weight: 700; 
+    font-size: 35px; 
+    line-height: 44px; 
+    color: #FFFFFF;
+}
+.subtitulo{
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    color: #720201;
+}
+.informativo{
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.formulario{
+    margin-top: 15px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form{
+    margin-top: 15px;
+}
+
+.campo-correcto{
+    border: 2px solid #3F7F00;
+}
+.campo-erroneo{
+    border: 2px solid #C22727;
+}

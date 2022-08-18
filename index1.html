@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacaoExpress</title>
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/ef5181dcbb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body >
+    
+    <main id="Inicio-sesion" style="display: block;">
+        <section id="logo-container">
+            <div>
+                <img id="logo" src="img/Logo-Principal.png" alt="">
+            </div>
+        </section>
+        <section id="session" class="family-font">
+            <div id="welcome" class="into-session">
+                Bienvenido de vuelta
+            </div>
+            <div id="description" class="into-session">
+                Ingresa tus datos
+            </div>
+            <div id="inputs" class="into-session" >
+                <input id="email" type="text" placeholder="Ingresa tu email." class="input family-font">
+                <input id="pass" type="password" placeholder="Ingresa tu contraseña" class="input family-font" >
+                <div class="anchor"> 
+                    
+                </div>
+                <button id="btn-access" type="button" class="btn btn-success" onclick="location.href = './Usuarios-Vista/index.html'">Iniciar Sesión</button>
+                <div class="anchor" onclick="seleccionarOpcion(2)"> 
+                    <u> ¿no estas registrado?</u>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <main id="Registro-usuario" style="display: none;">
+        <section class="barra-contenedora">
+            <div class="datos">
+                <div class="titulos family-font">
+                    Datos
+                </div>
+                <div class="informativo family-font">
+                    Por favor, brindanos los datos solicitados para poder generar tu usuario.
+                </div>
+            </div>
+            <div >
+                <img src="./img/usuario.png" alt="" style="width: 120px; margin: 1rem 1rem  0 0">
+            </div>
+        </section>
+
+        <section style="margin-left: 1.5rem;">
+            <div class="subtitulo family-font">
+                Completa tus datos
+            </div>
+            <div class="informativo family-font">
+                Te solicitamos algunos datos personales.
+            </div>
+            <div class="formulario">
+                <div class="informativo family-font" style="width: 338px; text-align: left;">
+                    Tu nombre y apellido.
+                </div>
+                <input id="nombre-usuario-registro" type="text" placeholder="Ingresa tu primer nombre." class="input family-font form">
+                <input id="apellido-usuario-registro" type="text" placeholder="Ingresa tu primer apellido." class="input family-font form">
+                <br>    
+                <div class="informativo family-font" style="width: 338px; text-align: left;">
+                    Correo y tu nueva contraseña.
+                </div>
+                <input id="email-registro" type="text" placeholder="Ingresa tu email." class="input family-font form" onkeyup="validarEmail(this)">
+                <input id="pass-registro" type="password" placeholder="Ingresa tu contraseña" class="input family-font form" >
+
+                <button id="btn-finalizar" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalAviso" onclick="verificarCampos()">Finalizar</button>
+                <button id="btn-cancelar" type="button" class="btn btn-success" data-bs-toggle="modal" onclick="seleccionarOpcion(1)">Cancelar</button>
+            </div>
+            
+        </section>
+
+
+            <!-- Button trigger modal -->
+        <!-- <button type="button" class="btn btn-primary" >
+            Launch demo modal
+        </button> -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalAviso" tabindex="-1" aria-labelledby="modalAvisoLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalAvisoLabel">Aviso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div id="aviso" class="modal-body">
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="seleccionarOpcion(1);">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./JS/controlador.js"></script>
+</body>
+</html>
