@@ -1,0 +1,18 @@
+[
+    {
+        "correo": "admin1@unah.hn",
+        "contraseña": "aei", 
+        "fotoPerfil": "https://www.pinterest.cl/pin/312015080416610435/?send=true",
+        "nombre": "Steve",
+        "apellido": "Wonder",
+        "numTelefono": "44557767"
+    },
+    {
+        "correo": "admin2@unah.hn",
+        "contraseña": "ouuu", 
+        "fotoPerfil": "https://ar.pinterest.com/pin/442619469637779599/",
+        "nombre": "Alex",
+        "apellido": "Wonder",
+        "numTelefono": "44887767"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "logo": "https://scontent.ftgu1-2.fna.fbcdn.net/v/t1.6435-9/103691000_3029676330449865_7134692913297916170_n.png?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEeep7rFOqhGuKn6LAyUOpHAYWDL7uBQPgBhYMvu4FA-MKcyIS4I2DtObKv5lHX089jKAopAO3KsKbUimthEcn4&_nc_ohc=SS4nePFOzEYAX_QANEP&_nc_ht=scontent.ftgu1-2.fna&oh=00_AT_WI7UNOJ-qRpYOjRjJa8utc9KIMc-1dnKgrZmYUL3SyA&oe=6321AE6E",
+        "portada": "https://scontent.ftgu1-2.fna.fbcdn.net/v/t39.30808-6/299024750_5363808297036645_7803519851287775827_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHQHC7zLE7N6hyZ2BzfsYNTztve0Rl7glTO297RGXuCVOV_Ui9_ygurv9mlBcexhZAJr5vzzM5PljjoRIWVW2EQ&_nc_ohc=xw14A-K9u7gAX8ALFHw&_nc_ht=scontent.ftgu1-2.fna&oh=00_AT_SpMoJTSJoc0WqCmPEmT9_fC8Gs9l0XU99m38mTMp_2A&oe=62FFF408",
+        "nombre": "Wendy's",
+        "slogan": "Lorem ipsum dolor",
+        "Tipo": "Comida rapida",
+        "numTelefono": "224455778",
+        "productosOfrecidos": [
+            {
+                "fotoProducto": "https://scontent.ftgu1-2.fna.fbcdn.net/v/t39.30808-6/297406921_5336236713127137_8744725530351135725_n.jpg?stp=dst-jpg_p526x296&_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGyzec_mqO0j0poVwiOcQHny8vQVRwNpkHLy9BVHA2mQVppmd6v3v5EeAZCu50RJQ1JCE1AL5clfyNwvCTZzBlw&_nc_ohc=gab9CzCgoosAX8A6Tzs&tn=kEIZDQw51-Bu7162&_nc_ht=scontent.ftgu1-2.fna&oh=00_AT-jgn0JsM8aAlt-4qo-grLzCFoUSe7NDo-mZ2jje1dxwQ&oe=6300774C",
+                "nombreProducto": "Nuggets de pollo",
+                "descripcionProducto": "Lorem ipsum dolor",
+                "precioProducto": 359.00
+            },
+            {
+                "fotoProducto": "https://scontent.ftgu1-1.fna.fbcdn.net/v/t39.30808-6/299012525_5360975513986590_712305308685898445_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFzVglVfPP056fNeu_nctQXhPXOV2YeAjaE9c5XZh4CNuzohfQAjjoucGnNux1m0i7OjuSeZuSpld-IhXGk8bQ5&_nc_ohc=YCbFZBmjFUEAX8tLs_9&_nc_ht=scontent.ftgu1-1.fna&oh=00_AT9GfkvQKq8XBrtqTPMuJMAvD5WUKDhcGmZAmyc7tLTcFg&oe=63011C65",
+                "nombreProducto": "Desayuno rapido",
+                "descripcionProducto": "Lorem ipsum dolor",
+                "precioProducto": 159.00
+            }
+        ]
+    },
+    {
+        "logo": "https://scontent.ftgu1-2.fna.fbcdn.net/v/t1.6435-9/66274371_2387708434600644_2383209449117450240_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFVG9Nb7g8LJcqORLuc8ah0Us_Y5QtS8c5Sz9jlC1Lxzr7Tpqa0BOeEkSawgtC95tjy9zYZHZ2_60TnjpfTBrRu&_nc_ohc=OHU4Dz-_TZMAX8S4rJB&tn=kEIZDQw51-Bu7162&_nc_ht=scontent.ftgu1-2.fna&oh=00_AT9KugZWZWHnb3WGeCL-IGFWhpnp1rBWO8PXxHE2xED5VQ&oe=6322A64C",
+        "portada": "https://scontent.ftgu1-2.fna.fbcdn.net/v/t39.30808-6/299839876_5499694343402022_2097863440975708755_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeELiX4UCpdQUpibpSaycSK0pA0yz1QADYSkDTLPVAANhGMbIPnnfzZetZY0HxZ0ioOFbeRO8U4jb3XW7jXRKytd&_nc_ohc=YGdWnsKxs7kAX-yuSQ0&_nc_ht=scontent.ftgu1-2.fna&oh=00_AT9tOwId1T5Pu7rXlflIgvPyJTr-NEy147srwsdahGgtwA&oe=63000C8B",
+        "nombre": "Pizza Hut",
+        "slogan": "Lorem ipsum dolor",
+        "Tipo": "Comida rapida",
+        "numTelefono": "334455778",
+        "productosOfrecidos": [
+            {
+                "fotoProducto": "https://scontent.ftgu1-1.fna.fbcdn.net/v/t39.30808-6/299813243_5497368903634566_138402404577474000_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFyndzgtfi1Oh2nUqXvKuf948msYRN5o5_jyaxhE3mjn8bHSN57IaX0_iBi1pRA2qjzWD8U0jwJXOfezJRQihy6&_nc_ohc=UzvaA5ZDzcIAX97Fynk&_nc_ht=scontent.ftgu1-1.fna&oh=00_AT_5QLAThpN8xNJBUxzdwcRR33h_-_L9ABcdsvlBm6HEvQ&oe=6300B022",
+                "nombreProducto": "Hut Cheese Pizza",
+                "descripcionProducto": "Lorem ipsum dolor",
+                "precioProducto": 299.00
+            },
+            {
+                "fotoProducto": "https://scontent.ftgu1-1.fna.fbcdn.net/v/t39.30808-6/295403066_5461418233896300_1250326584427543119_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE2pr3VhgVnTz1z7ybSJsLg5HvhrnEir3nke-GucSKveefAT0P7EbOwVyoW7DAug2d3HXm53aYJvY3o0ND6lqMn&_nc_ohc=fpM3-labc2EAX-zIrtP&_nc_ht=scontent.ftgu1-1.fna&oh=00_AT9Y-puMo9BsgEKxEHUwW17s_VwhhDvez1gqXMIcokF1tw&oe=630041D5",
+                "nombreProducto": "Triple Wow Box",
+                "descripcionProducto": "Lorem ipsum dolor",
+                "precioProducto": 649.00
+            }
+        ]
+    }
+]
